@@ -52,7 +52,7 @@ int main(int argc, const char *argv[])
   auto diffBubble = endBubble - startBubble;
   cout << "elapsedTime for bubbleSort : " << chrono::duration_cast<ns>(diffBubble).count() << " ns " << endl;
 
-  cout << "insertSort: " << endl;
+/*  cout << "insertSort: " << endl;
   for (int i = 0; i < lineCount; ++i)
     cout << myArray[i] << endl;
 
@@ -62,7 +62,7 @@ int main(int argc, const char *argv[])
 
   cout << "bubbleSort: " << endl;
   for (int i = 0; i < lineCount; ++i)
-    cout << myArray3[i] << endl;
+    cout << myArray3[i] << endl;*/
 
   return 0;
 }
